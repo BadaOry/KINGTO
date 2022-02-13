@@ -1,0 +1,504 @@
+@charset "UTF-8";
+
+
+.area{
+    box-sizing: border-box;
+    border: red 1px solid;
+} 
+
+body{
+    margin: 0;
+}
+
+.select_div {
+    /* SIZE: B5; */
+    height: 40%;
+    margin: auto;
+    /* width: 500px; */
+}
+
+#warp{
+    /* width: 1200px; */
+    height: 100vh; /*vw, vh 화면을 기준으로 조정*/
+    box-sizing: border-box;
+    margin: auto;
+}
+
+
+header{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(22, 42, 53);
+    text-align: center;
+    /* line-height: 80px; */
+    color: rgb(243, 176, 70);
+}
+
+header h1{
+	margin-left:50px;
+	color:#f3b046;
+	font-size:4em;
+	margin: 0;
+	padding-top: 12px;
+	padding-left: 15px;
+}
+
+#logo{
+	width:100px;
+	height:100px;
+}
+
+
+#title {
+	vertical-align:50%;
+}
+
+#header1{
+    width: 50%;
+    height: 130px;
+    float: left;
+    text-align: left;
+}
+
+/*로그인 헤더*/
+
+#header3{
+    width: 50%;
+    height: 130px;
+    float: left;
+    text-align: right;
+    /* padding-top: 0px; */
+}
+
+#header3>table {
+	display:inline-block;
+	padding-right:40px;
+	padding-top: 20px;
+}
+
+#header3>table button,
+#header3>table input {
+    color: white;
+    background-color:transparent;
+    border:unset;
+    cursor:pointer;
+    width: 100%;
+}
+
+#select_h2{
+	text-align:center;
+	padding-top: 90px;
+}
+
+#select_button{
+	text-align:center;
+	padding-top:30px;
+
+}
+
+#kr_button{
+    background-color:rgb(243, 176, 70);
+    font-size:30px;
+    width:230px;
+    height:60px;
+    border:white;
+    margin-right:30px;
+    cursor: pointer;
+}
+
+#fr_button{
+    background-color:rgb(22, 42, 53);
+    color:white;
+    font-size:30px;
+    width:230px;
+    height:60px;
+    border:white;
+    margin-left:10px;
+    cursor: pointer;
+}
+
+
+
+
+.header_nav{ 
+    height: 50px;
+    width: 100%;
+    background-color: rgb(22, 42, 53);
+    /* background-color: white; */
+}
+
+.header_nav>ul{
+    margin: 0 0;
+    padding: 0 15%;
+    height: 100%;
+    list-style: none;
+}
+
+.header_nav>ul>li{
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    
+}
+
+.header_nav a{
+    font-size: 1.5em;
+    font-weight: 900;
+    /* color: rgb(243, 176, 70); */
+    color: white;
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    line-height: 45px;
+    /* background-color: orangered; */
+}
+
+.header_nav a:hover {
+	color:#f3b046;
+}
+
+.header_nav>ul>li>ul{
+    padding: 0;
+    list-style: none;
+    position: relative;
+    display: none;
+}
+
+.header_nav>ul>li>a:hover+ul{
+    display: block;
+}
+
+.header_nav>ul>li>ul:hover{
+    display: block;
+}
+
+.header_nav>ul>li>ul a{
+    background-color: rgb(209, 209, 209);
+}
+
+.header_nav>ul>li>ul>li>a:hover{
+    color: rgb(228, 157, 42);
+    background-color: rgb(165, 165, 165);
+}
+
+
+/* 회원 약관_kr*/
+#policy {
+	/* height: 45%; */
+	text-align:center;
+}
+
+#policy>h2 {
+	text-align:center;
+	padding-bottom: 10px;
+}
+
+#policy>input {
+	padding:30px;
+	cursor: pointer;
+}
+
+.policy{
+	overflow-y:scroll;
+	height:200px;
+	width: 90%;
+	margin:auto;
+	text-align:left;
+	margin-bottom: 20px;
+}
+
+#policy_button {
+	background-color:rgb(243, 176, 70);
+	width:230px;
+	height:60px;
+	border:white;
+	margin-top: 30px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+#policy_button_eng{
+	background-color:rgb(22, 42, 53);
+	color:white;
+	width:230px;
+	height:60px;
+	border:white;
+	margin-top: 30px;
+	cursor: pointer;
+	margin-bottom: 30px
+}
+
+
+/* 회원가입 페이지 (내국인) */
+.checkIdDuplicate {
+	text-align:right;
+}
+
+#checkIdDuplicate {
+	background-color: rgb(243, 176, 70);
+	border:white;
+	width:100%;
+	padding-left:10px;
+	cursor: pointer;
+}
+
+
+#profilePreview>img {
+	width:300px;
+	height:300px;
+}
+
+#enrollSubmit{
+	background-color: rgb(243, 176, 70);
+	color: white;
+	width:230px;
+	height:40px;
+	border:white;
+	margin-top: 30px;
+}
+
+/* 회원가입 페이지 (외국인) */
+#checkIdDuplicate_eng {
+	background-color: rgb(22, 42, 53);
+	color:white;
+	border:white;
+	width:100%;
+	padding-left:10px;
+	cursor: pointer;
+}
+
+
+/* 회원가입 완료 페이지 */
+#congratulation_kr {
+	text-align:center;
+}
+
+#congratulation_kr_text{
+	text-align:center;
+}
+
+#backToMain{
+	background-color:rgb(209, 209, 209);
+	width:230px;
+	height:40px;
+	border:white;
+	margin-top: 30px;
+	margin-bottom: 30;
+	cursor: pointer;
+}
+
+
+#login_page_btn_form{
+		display:inline-block;
+		cursor:pointer;
+}
+
+#success_div{
+	text-align:center;
+	margin-bottom:20px;
+}
+
+
+#login_page_btn_scs{
+	background-color:rgb(243, 176, 70);
+	width:230px;
+	height:40px;
+	border:white;
+	margin-top: 30px;
+
+}
+
+/* 회원정보 페이지 (내국인) */
+#chekcNicknameDuplicate {
+	background-color: rgb(243, 176, 70);
+	border:white;
+	width:30%;
+	cursor: pointer;
+}
+
+
+#updateSubmit{
+	background-color:rgb(243, 176, 70);
+	width:230px;
+	height:60px;
+	border:white;
+	margin-top: 30px;
+	cursor: pointer;
+	margin-bottom: 30;
+}
+
+#deleteButton{
+	background-color:rgb(209, 209, 209);
+	width:230px;
+	height:60px;
+	border:white;
+	margin-top: 30px;
+	margin-bottom: 30;
+	cursor:pointer;
+}
+
+/* 회원정보 페이지 (외국인) */
+#chekcNicknameDuplicate_eng {
+	background-color: rgb(22, 42, 53);
+	color:white;
+	border:white;
+	width:30%;
+	cursor: pointer;
+}
+
+#enrollSubmit_eng{
+	background-color:rgb(22, 42, 53);
+	color:white;
+	width:230px;
+	height:60px;
+	border:white;
+	margin-top: 30px;
+	cursor: pointer;
+	margin-bottom: 30;
+}
+
+#updateSubmit_eng{
+	background-color: rgb(22, 42, 53);
+	color:white;
+	width:230px;
+	height:60px;
+	border:white;
+	margin-top: 30px;
+	cursor: pointer;
+	margin-bottom: 30;
+}
+
+#deleteButton_eng{
+	background-color:rgb(209, 209, 209);
+	width:230px;
+	height:60px;
+	border:white;
+	margin-top: 30px;
+	margin-bottom: 30;
+	cursor:pointer;
+}
+
+
+
+/* 회원 탈퇴 확인 */
+#delete_confirm{
+	text-align:center;
+}
+
+#delete_confirm_text{
+	text-align:center;
+}
+
+#backToMyinfo{
+	background-color:rgb(209, 209, 209);
+	width:230px;
+	height:40px;
+	border:white;
+	margin-top: 30px;
+	margin-bottom: 30;
+	cursor: pointer;
+}
+
+#delete_confirm_btn_yes {
+	background-color: rgb(243, 176, 70);
+	width:230px;
+	height:40px;
+	border:white;
+	margin-top: 30px;
+	margin-bottom: 30;
+	cursor: pointer;
+}
+
+
+
+/* 회원 탈퇴 확인 (외국인)*/
+#delete_confirm_btn_yes_eng {
+	background-color:rgb(22, 42, 53);
+	color:white;
+	width:230px;
+	height:40px;
+	border:white;
+	margin-top: 30px;
+	margin-bottom: 30;
+	cursor: pointer;
+}
+
+
+
+
+
+#studyInfo td {
+	border-bottom:1px ;
+	padding-bottom: 8px;
+}
+
+
+section{
+    width: 100%;
+    height: calc(100vh - 180px);
+}
+
+aside{
+    width: 15%;
+    height : 100%;
+    background-color: rgb(243, 243, 243);
+    float: left;
+}
+
+.side_nav>ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.side_nav a{
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    display: block;
+    height: 50px;
+    border-bottom: rgb(70, 70, 70) solid 1px;
+    /* box-sizing: border-box;
+    border: red 1px solid; */
+}
+
+.side_nav a:hover{
+    background-color: rgb(224, 224, 224);
+}
+
+#content{
+    width: 85%;
+    height : 100%;
+    overflow: scroll;
+    float: left;
+}
+
+footer{ 
+	background-color:#162a35;
+	color:white;
+	clear:both;
+	height:50px;
+	text-align:center;
+	padding-top:40px;
+}
+
+
+
+
+#feed_write_area{
+    margin:0 auto;
+}
+
+#feed_write_area tr td{
+    height: 50px;
+}
+
+.feed_img_area{
+    width: 310px;
+    border:1px solid black;
+}
